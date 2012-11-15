@@ -180,9 +180,6 @@ class Player
     @score = 0
   end
 
-  def new_turn
-  end
-
   def roll_or_stay?
     @chooseable.roll_or_stay?
   end
